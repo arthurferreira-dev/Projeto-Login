@@ -37,13 +37,16 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 16px;
+
+    transition: width 0.36s, heigth 0.36s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imgs/pexels-alteredsnaps.jpg);
+    background: #9952c9 url(../imgs/pexels-alteredsnaps.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     height: 200px;
 }
 
